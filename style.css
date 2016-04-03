@@ -1,0 +1,341 @@
+/*font-family: 'Open Sans', sans-serif;*/
+/* font-family: 'Unica One', cursive; */
+
+*{
+	box-sizing: border-box;
+}
+.container {
+ 	width: 100%;
+ 	position: relative;
+ 	height: 100vh;
+}
+nav {
+  	width: 20%;
+  	position: fixed;
+	top: 0;
+	bottom: 0;
+	height: 100vh;
+	z-index: 10000000;
+	background-color: white;
+}
+
+nav img{
+	width: 100%;
+	
+}
+
+aside{
+	position: absolute;
+	top: 0;
+	right: 0; 
+	height: 100vh;
+	z-index: 0;
+	width: 80%;
+
+}
+
+aside img{
+	width: 100%;
+	display: block;	
+}
+
+aside > figure{
+	position: relative;
+	padding: 0;
+	margin: 0em 0px;
+}
+
+figure > a{
+	position: absolute;
+}
+
+nav > section {
+	position: absolute;
+	padding: 0;
+	margin: 0;
+	top: 0px;
+	width: 100%;
+}
+
+.main-links a:hover{
+	opacity: 0.5;
+}
+
+
+section>ul{
+	width: 100%;
+}
+
+ul > li{
+
+	list-style: none;	
+	width: 100%;
+	
+}
+
+ul > li > a{
+	list-style: none;	
+	display: block;
+	background-color: none;
+	opacity: 1;		
+	text-decoration: none;
+	color: black;
+}
+
+.main-links{
+	font-family: 'Unica One', cursive;	
+	font-size: 1.7vw;
+	padding-left: 0;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.main-links > li{
+	margin-bottom: 10px;
+	padding: 0px 2.5vw 10px 2.5vw;
+}
+
+.sub-links{
+	padding-left: 0;
+	margin-top: 10px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.1vw;	
+	margin-bottom: 10px;
+	font-weight: normal;
+	text-transform: none;
+}
+
+li.logo{
+	margin-bottom: 2vw;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.social-networks{
+	padding-left: 0;	
+}
+
+.social-networks > li{
+	display: inline-block;
+}
+
+section > img{
+	width: 80%;
+	display: block;
+	margin: auto;
+}
+
+
+
+.arrow{
+	    position: absolute;
+    display: block;
+    background-color: yellow;
+    opacity: 0;
+    z-index: 1000;
+    height: 100%;
+    width: 20%;
+      
+}
+
+.previous.arrow{
+	
+    left: 0;
+    top: 0; 
+}
+
+.next.arrow{
+	left: 20%;
+    top: 0; 
+}
+
+aside figure a:hover{
+	opacity: 0;
+}
+
+.first-section{
+	position: absolute;
+	display: block;
+	background-color: yellow;
+	opacity: 0;
+	z-index:1000;
+	    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+}  
+
+.button{
+	position: absolute;
+	display: block;
+	background-color: yellow;
+	opacity: 0;
+	z-index:1000;
+	
+		
+}
+
+.first.button{
+	left: 40%;
+    top: 0px;
+    height: 100%;
+    width: 2.2%;
+}
+
+.second.button{
+	left: 43%;
+    top: 0px;
+    height: 100%;
+    width: 2.2%;
+}
+
+.improve.button{
+	left: 400px;
+    top: 100px;
+    height: 80px;
+    width: 180px;
+}
+
+.identity.button{
+	left: 40%;
+    top: 0;
+    height: 100%;
+    width: 60%;
+}
+
+
+.discutons-en.button{
+	    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.scroll-down.button{
+	
+	left: 0;
+    top: 0;
+    height: 100%;
+    width: 40%;
+}
+
+.contact-us.button{
+	    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.link-to-project.button{
+	    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index:1000;
+}
+
+.discover-project.button{
+	    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.realisations-menu.button{
+	    left: 1152px;
+    top: 436px;
+    height: 50px;
+    width: 100px;
+}
+
+.other-realisations.button{
+	    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.back-to-realisations-menu.button{
+	left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+}
+
+
+.devis-gratuit.button{
+	left: 300px;
+    top: 360px;
+    height: 50px;
+    width: 150px;
+}
+
+.design-page.mail-to.button{
+	    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.design-page.other-realisation.button{
+	    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.design-page.back-to-services-menu.button{
+	    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.design-page.back-to-services-top-menu.button{
+	    right: 0;
+    top: 0;
+    height: 100%;
+    width: 60%;
+}
+
+.services-page.go-to-link.button{
+	left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.blog-aside{
+	z-index: 10000;
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	background-color: white;
+	height: 100vh;
+}
+
+
+.filter{	
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    /* left: 0; */
+    background-color: white;
+    height: 10vh;
+    width: 80%;
+    overflow: hidden;
+    z-index: 100000;
+}
+
+
+.filter-aside{
+	position: fixed;
+	top: 0;
+	right: 0;	
+	background-color: white;
+	height: 100vh;
+	overflow: hidden;
+	z-index: -1;
+}
+
