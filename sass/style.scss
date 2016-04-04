@@ -1,7 +1,97 @@
-$font-stack:    Helvetica, sans-serif;
-$primary-color: #333;
 
-body {
-  font: 100% $font-stack;
-  color: $primary-color;
+/* style | variant | weight | stretch | size/line-height | family */
+
+$unica:'Unica One', cursive;
+$open:'Open Sans', sans-serif;
+
+body{font-family: $open;}
+.container{
+
 }
+
+.sidebar{
+	height: 100vh;
+	min-width: 240px;
+	width: 20vw;
+	background-color: grey;	
+	overflow: hidden;
+	position: relative;
+
+	header,nav,footer{
+		width: 100%;
+		padding: 1.25rem 1.5rem 1.25rem 1.5rem;
+	}
+
+	header{		
+		background-color: yellow;
+	}
+	nav{		
+		background-color: lightcoral;	
+	}
+
+	footer{		
+		position: absolute;
+		bottom: 0;		
+		background-color: red;
+	}
+}
+
+ul.vertical.menu{
+	font-family: $unica;
+	font-size: 1.5rem;
+	padding: 0;
+
+	a{
+		padding: 0;
+		line-height: 1.5;
+		text-decoration: none;
+	}
+}
+
+ul.menu.vertical.nested{
+	font-family: $open;
+	font-size: 1rem;
+}
+
+.social-media{
+
+	margin: 0;
+	text-align: center;
+	padding: 0;
+	li{
+		list-style-type: none;
+		display: inline-block;
+		width: 45px;
+		height: 45px;
+	}
+
+	a{		
+
+	}
+
+	img{		
+		fill: white;
+		width: 80%;		
+	}
+}
+
+.address{
+	p{
+		line-height: 0.9;
+		font-size: 0.9rem;
+		text-align: center;
+	}
+}
+
+.copyright{
+	p{
+		line-height: 0.9;
+		font-size: 0.9rem;
+		text-align: center;
+	}
+}
+
+.dropdown{
+	
+}
+

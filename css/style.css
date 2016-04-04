@@ -1,5 +1,60 @@
+/* style | variant | weight | stretch | size/line-height | family */
 body {
-  font: 100% Helvetica, sans-serif;
-  color: #333; }
+  font-family: "Open Sans", sans-serif; }
+
+.sidebar {
+  height: 100vh;
+  min-width: 240px;
+  width: 20vw;
+  background-color: grey;
+  overflow: hidden;
+  position: relative; }
+  .sidebar header, .sidebar nav, .sidebar footer {
+    width: 100%;
+    padding: 1.25rem 1.5rem 1.25rem 1.5rem; }
+  .sidebar header {
+    background-color: yellow; }
+  .sidebar nav {
+    background-color: lightcoral; }
+  .sidebar footer {
+    position: absolute;
+    bottom: 0;
+    background-color: red; }
+
+ul.vertical.menu {
+  font-family: "Unica One", cursive;
+  font-size: 1.5rem;
+  padding: 0; }
+  ul.vertical.menu a {
+    padding: 0;
+    line-height: 1.5;
+    text-decoration: none; }
+
+ul.menu.vertical.nested {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem; }
+
+.social-media {
+  margin: 0;
+  text-align: center;
+  padding: 0; }
+  .social-media li {
+    list-style-type: none;
+    display: inline-block;
+    width: 45px;
+    height: 45px; }
+  .social-media img {
+    fill: white;
+    width: 80%; }
+
+.address p {
+  line-height: 0.9;
+  font-size: 0.9rem;
+  text-align: center; }
+
+.copyright p {
+  line-height: 0.9;
+  font-size: 0.9rem;
+  text-align: center; }
 
 /*# sourceMappingURL=style.css.map */
