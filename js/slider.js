@@ -5,8 +5,13 @@ var slide_count = ul.children().length;
 var slide_width_pc = 100.0 / slide_count;
 var slide_index = 0;
 
+// Var to clone the first and the last li
 var first_slide = ul.find("li:first-child");
 var last_slide = ul.find("li:last-child");
+
+
+
+var auto = setInterval(slide(slide_index + 1), 1000); // 1000 ms = 1 sec
 
 // Clone the last slide and add as first li element :)
 last_slide.clone().prependTo(ul);
