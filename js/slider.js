@@ -11,6 +11,7 @@ var last_slide = ul.find("li:last-child");
 // Clone the last slide and add as first li element :)
 last_slide.clone().prependTo(ul);
 
+
 // Clone the first slide and add as last li element
 first_slide.clone().appendTo(ul);
 
