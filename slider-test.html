@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+	<meta content="charset=utf-8">
+	<title>FlexSlider 2</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <link rel="stylesheet" href="css/flexslider.css">
+
+
+</head>
+<body>
+
+<div class="flexslider">
+  <ul class="slides">
+    <li>
+      <img src="img/slide1.jpg" />
+      <p class="flex-caption">Adventurer Cheesecake Brownie</p>
+    </li>
+    <li>
+      <img src="img/slide2.jpg" />
+      <p class="flex-caption">Adventurer Lemon</p>
+    </li>
+    <li>
+      <img src="img/slide3.jpg" />
+      <p class="flex-caption">Adventurer Donut</p>
+    </li>
+    <!-- <li>
+      <img src="slide4.jpg" />
+      <p class="flex-caption">Adventurer Caramel</p>
+    </li> -->
+  </ul>
+</div>
+
+<script src="js/jquery-1.12.2.min.js"></script>
+<script src="js/jquery.flexslider.js"></script>
+<script>
+  $(window).load(function() {
+  $('.flexslider').flexslider({
+    animation: "slide"
+  });
+});
+</script>
+</body>
+</html>

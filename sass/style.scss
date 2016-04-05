@@ -5,17 +5,16 @@ $unica:'Unica One', cursive;
 $open:'Open Sans', sans-serif;
 
 body{font-family: $open;}
-.container{
 
-}
+/* SIDEBAR */
 
 .sidebar{
-	height: 100vh;
-	min-width: 240px;
+	height: 100vh;	
 	width: 20vw;
 	background-color: grey;	
 	overflow: hidden;
 	position: relative;
+	float: left;
 
 	header,nav,footer{
 		width: 100%;
@@ -36,21 +35,57 @@ body{font-family: $open;}
 	}
 }
 
-ul.vertical.menu{
+ul.my-menu{
 	font-family: $unica;
 	font-size: 1.5rem;
 	padding: 0;
+	margin: 0;
 
-	a{
-		padding: 0;
-		line-height: 1.5;
+	li{
+		list-style-type: none;
+		background-color: red;
+		margin-bottom: 3px;
+	}
+	
+
+	a{		
 		text-decoration: none;
 	}
 }
 
-ul.menu.vertical.nested{
+.trigger{
+
+	
+		background-color: blue;
+	font-size: 1.25rem;	
+	-webkit-transform: rotate(0deg);
+	   -moz-transform: rotate(0deg);
+	    -ms-transform: rotate(0deg);
+	     -o-transform: rotate(0deg);
+	        transform: rotate(0deg);
+	
+	
+}
+
+.trigger.active{
+	
+		-webkit-transform: rotate(-180deg);
+	   -moz-transform: rotate(-180deg);
+	    -ms-transform: rotate(-180deg);
+	     -o-transform: rotate(-180deg);
+	        transform: rotate(-180deg);
+	        -webkit-transition: all .25s ease;
+	           -moz-transition: all .25s ease;
+	            -ms-transition: all .25s ease;
+	             -o-transition: all .25s ease;
+	                transition: all .25s ease;
+	
+}
+
+ul.my-submenu{
 	font-family: $open;
 	font-size: 1rem;
+	padding: 0;
 }
 
 .social-media{
@@ -91,7 +126,83 @@ ul.menu.vertical.nested{
 	}
 }
 
-.dropdown{
-	
+header.menu-responsive{
+		display: none;
+	}
+
+
+/* RIGHT PART - MAIN PART */
+
+main{
+	// height: 100vh;	
+	// width: 80vw;	
+	// overflow: hidden;
+	// position: relative;
+	// top: 0;
+	// right: 0;
+	// background-color: pink;
+	float: right;
 }
 
+.layer1.slider-img{
+	height: 100vh;	
+	width: 80vw;	
+	overflow: hidden;
+	position: absolute;
+	top: 0;
+	right: 0;
+	background-color: aquamarine;
+	ul.slides{
+		padding: 0;
+		margin:0;
+		list-style-type: none;
+		width: 10000px;
+		
+	}
+
+	li.slide{
+		width: 80vw;		
+		float: left;
+
+		img{
+			width: 100%;			
+		}
+	}
+}
+
+
+
+/* MEDIA QUERIES RESPONSIVE */
+
+@media (max-width: 768px){
+	header.menu-responsive{
+		display: block;
+	}
+
+	div.sidebar{
+		display: none;
+	}
+}
+
+@media (min-width: 2500px) {
+  .sidebar{
+  	header,nav,footer{
+		width: 100%;
+		padding: 2rem 3.5rem 2rem 3.5rem;
+	}
+  }
+
+  	ul.my-menu{	
+		font-size: 2.75rem;
+	}
+
+	ul.my-submenu{		
+		font-size: 1.75rem;
+		
+	}
+
+	.address p, .copyright p{
+		font-size: 1.5rem;
+	}
+	
+}
