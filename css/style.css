@@ -140,7 +140,7 @@ main {
     position: absolute;
     height: 4px;
     width: 40px;
-    top: 8px;
+    top: 19px;
     background-color: black;
     transition: all 1s cubic-bezier(0.19, 1, 0.22, 1); }
     .burger .icon:before {
@@ -148,7 +148,7 @@ main {
       position: absolute;
       height: 4px;
       width: 40px;
-      top: 0px;
+      top: -17px;
       background-color: black;
       transition: all 1s cubic-bezier(0.19, 1, 0.22, 1); }
     .burger .icon:after {
@@ -160,6 +160,50 @@ main {
       background-color: black;
       transition: all 1s cubic-bezier(0.19, 1, 0.22, 1); }
 
+.burger.active {
+  position: relative;
+  height: 40px;
+  width: 40px;
+  margin: auto;
+  background-color: green; }
+  .burger.active .icon {
+    position: absolute;
+    height: 4px;
+    width: 40px;
+    top: 19px;
+    background-color: transparent; }
+    .burger.active .icon:before {
+      content: "";
+      position: absolute;
+      height: 4px;
+      width: 40px;
+      top: 0px;
+      background-color: black;
+      animation: cross 1s cubic-bezier(0.19, 1, 0.22, 1) 0s running forwards; }
+    .burger.active .icon:after {
+      content: "";
+      position: absolute;
+      height: 4px;
+      width: 40px;
+      top: 0px;
+      background-color: red; }
+
+@keyframes cross {
+  0% {
+    -webkit-transform: rotateZ(0deg);
+    -moz-transform: rotateZ(0deg);
+    -ms-transform: rotateZ(0deg);
+    -o-transform: rotateZ(0deg);
+    transform: rotateZ(0deg); }
+  100% {
+    -webkit-transform: rotateZ(45deg);
+    -moz-transform: rotateZ(45deg);
+    -ms-transform: rotateZ(45deg);
+    -o-transform: rotateZ(45deg);
+    transform: rotateZ(45deg); } }
+@-moz-keyframes cross {}
+@-ms-keyframes cross {}
+@-o-keyframes cross {}
 .navigation.active {
   position: fixed;
   width: 100vw;

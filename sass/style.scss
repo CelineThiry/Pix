@@ -225,7 +225,7 @@ main{
 		position: absolute;
 		height: 4px;
 		width: 40px;
-		top: 8px;
+		top: 19px;
 		background-color: black;
 		transition: all 1s cubic-bezier(.19,1,.22,1);
 
@@ -234,7 +234,7 @@ main{
 			position: absolute;
 			height: 4px;
 			width: 40px;
-			top: 0px;
+			top: -17px;
 			background-color: black;
 			transition: all 1s cubic-bezier(.19,1,.22,1);
 		}
@@ -251,42 +251,71 @@ main{
 	}
 }
 
-// .burger.active{
-// 	position: relative;
-// 	height: 40px;
-// 	width: 40px;
-// 	margin: auto;	
-// 	background-color: green;
+.burger.active{
+	position: relative;
+	height: 40px;
+	width: 40px;
+	margin: auto;	
+	background-color: green;
 
-// 		.icon{
-// 		position: absolute;
-// 		height: 4px;
-// 		width: 40px;
-// 		top: 0px;
-// 		background-color: transparent;
+		.icon{
+		position: absolute;
+		height: 4px;
+		width: 40px;
+		top: 19px;
+		background-color: transparent;
 
 			
-// 		&:before{
-// 			content:"";
-// 			position: absolute;
-// 			height: 4px;
-// 			width: 40px;
-// 			top: 18px;
-// 			background-color: transparent;
-// 			-moz-transform: rotateZ(-45deg) scaleX(1.25) translate(13px, 13px);
-// 		}
+		&:before{
+			content:"";
+			position: absolute;
+			height: 4px;
+			width: 40px;
+			top: 0px;
+			background-color: black;
+			animation: cross 1s cubic-bezier(.19,1,.22,1) 0s running forwards;
+		}
 
-// 		&:after{
-// 			content:"";
-// 			position: absolute;
-// 			height: 4px;
-// 			width: 40px;
-// 			top: 0px;
-// 			background-color: red;
+		&:after{
+			content:"";
+			position: absolute;
+			height: 4px;
+			width: 40px;
+			top: 0px;
+			background-color: red;
 	
-// 		}
-// 	}
-// }
+		}
+	}
+}
+
+@keyframes cross {
+	0% { -webkit-transform: rotateZ(0deg);
+	   -moz-transform: rotateZ(0deg);
+	    -ms-transform: rotateZ(0deg);
+	     -o-transform: rotateZ(0deg);
+	        transform: rotateZ(0deg); }
+	100% { -webkit-transform: rotateZ(45deg);
+	   -moz-transform: rotateZ(45deg);
+	    -ms-transform: rotateZ(45deg);
+	     -o-transform: rotateZ(45deg);
+	        transform: rotateZ(45deg); }
+}
+@-moz-keyframes cross {
+	0% {  }
+	100% {  }
+}
+@-ms-keyframes cross {
+	0% {  }
+	100% {  }
+}
+@-o-keyframes cross {
+	0% {  }
+	100% {  }
+}
+@keyframes cross {
+	0% {  }
+	100% {  }
+}
 
 
 
