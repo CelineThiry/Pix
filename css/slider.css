@@ -32,7 +32,34 @@ position: absolute;
 width: 300%;
 height: 100%;
 top: 0;
+/*-webkit-animation: loop 10000 ease-in-out;
+   -moz-animation: loop 10000 ease-in-out;
+    -ms-animation: loop 10000 ease-in-out;
+     -o-animation: loop 10000 ease-in-out;
+        animation: loop 10000 ease-in-out;
+        -webkit-transform: translateX(0vw);
+	   -moz-transform: translateX(0vw);
+	    -ms-transform: translateX(0vw);
+	     -o-transform: translateX(0vw);
+	        transform: translateX(0vw);*/
 }
+
+/*@keyframes loop{
+	0%{
+	-webkit-transform: translateX(0vw);
+	   -moz-transform: translateX(0vw);
+	    -ms-transform: translateX(0vw);
+	     -o-transform: translateX(0vw);
+	        transform: translateX(0vw);
+	    }	
+	100%{
+	-webkit-transform: translateX(-240vw);
+	   -moz-transform: translateX(-240vw);
+	    -ms-transform: translateX(-240vw);
+	     -o-transform: translateX(-240vw);
+	        transform: translateX(-240vw);
+	    }
+}*/
 
 .slider li {
 padding: 0;

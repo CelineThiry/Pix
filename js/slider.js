@@ -9,10 +9,6 @@ var slide_index = 0;
 var first_slide = ul.find("li:first-child");
 var last_slide = ul.find("li:last-child");
 
-
-
-var auto = setInterval(slide(slide_index + 1), 1000); // 1000 ms = 1 sec
-
 // Clone the last slide and add as first li element :)
 last_slide.clone().prependTo(ul);
 
@@ -64,6 +60,8 @@ slide(slide_index + 1);
     });
 
   }
+
+  // var auto = window.setInterval(slide(), 1000); // 1000 ms = 1 sec
 
 
 

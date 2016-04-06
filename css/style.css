@@ -29,7 +29,6 @@ ul.my-menu {
   margin: 0; }
   ul.my-menu li {
     list-style-type: none;
-    background-color: red;
     margin-bottom: 3px; }
   ul.my-menu a {
     text-decoration: none; }
@@ -91,6 +90,7 @@ main {
   float: right; }
 
 .layer1.slider-img {
+  z-index: 0;
   height: 100vh;
   width: 80vw;
   overflow: hidden;
@@ -108,6 +108,79 @@ main {
     float: left; }
     .layer1.slider-img li.slide img {
       width: 100%; }
+
+/* MENU RESPONSIVE */
+.my-header {
+  background-color: aquamarine;
+  position: fixed;
+  width: 100vw;
+  height: 12vh;
+  z-index: 13; }
+
+.home-logo {
+  background-color: blue; }
+  .home-logo a {
+    background-color: pink;
+    display: block; }
+  .home-logo img {
+    height: 40px; }
+
+/* MENU BURGER */
+.burger-icon-container {
+  background-color: purple;
+  width: 100%; }
+
+.burger {
+  position: relative;
+  height: 40px;
+  width: 40px;
+  margin: auto;
+  background-color: green; }
+  .burger .icon {
+    position: absolute;
+    height: 4px;
+    width: 40px;
+    top: 8px;
+    background-color: black;
+    transition: all 1s cubic-bezier(0.19, 1, 0.22, 1); }
+    .burger .icon:before {
+      content: "";
+      position: absolute;
+      height: 4px;
+      width: 40px;
+      top: 0px;
+      background-color: black;
+      transition: all 1s cubic-bezier(0.19, 1, 0.22, 1); }
+    .burger .icon:after {
+      content: "";
+      position: absolute;
+      height: 4px;
+      width: 40px;
+      top: 16px;
+      background-color: black;
+      transition: all 1s cubic-bezier(0.19, 1, 0.22, 1); }
+
+.navigation.active {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background: green;
+  opacity: 0.75;
+  top: 12vh;
+  z-index: 12;
+  -webkit-font-smoothing: antialiased;
+  transition: all 1s cubic-bezier(0.19, 1, 0.22, 1); }
+
+.navigation {
+  top: -112vh; }
+
+.navigation-list {
+  background-color: pink;
+  padding: 15px 20px 15px 20px; }
+
+.my-menu.responsive {
+  margin-bottom: 45px;
+  text-align: center; }
 
 /* MEDIA QUERIES RESPONSIVE */
 @media (max-width: 768px) {

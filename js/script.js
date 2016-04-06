@@ -8,5 +8,15 @@ $(document).ready(function(){
 		{
 			$(this).next().slideDown();
 		}
-	})
-})
+	});
+
+	$('.burger').click(function(){
+		//slide up all the link lists
+		$('.navigation').toggleClass("active");
+		$(this).toggleClass("active");
+
+		
+	});
+
+
+});
