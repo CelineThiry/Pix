@@ -82,17 +82,10 @@ ul.my-submenu {
   font-size: 0.9rem;
   text-align: center; }
 
-header.menu-responsive {
-  display: none; }
-
 /* RIGHT PART - MAIN PART */
 main {
   float: right;
   position: relative; }
-
-.layer2 {
-  /*margin: 0 auto 0 20%;*/
-  /*min-height: 400px;*/ }
 
 /* MENU RESPONSIVE */
 .my-header {
