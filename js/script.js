@@ -12,7 +12,7 @@ $(document).ready(function(){
 
 	$('.burger').click(function(){
 		//slide up all the link lists
-		$('.navigation').toggleClass("active");
+		$('.sidebar').toggleClass("active");
 		$(this).toggleClass("active");
 
 		
