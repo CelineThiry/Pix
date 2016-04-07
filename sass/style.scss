@@ -345,6 +345,19 @@ main{
 	.trigger, .trigger.active, .dropdown, .mysubmenu{
 		display: none;
 	}
+
+	main .container-cover.layer1{
+		// margin: 0 auto 0 20%;
+		position: absolute;
+		// top: 0;
+		// bottom: 0;
+		// right: 0;
+		width: 100vw;
+		min-width: 200vw;
+		background-color: #fff;		
+		// height: 100vh;
+		// min-height: 450px;
+	}
 }
 
 @media (min-width: 2500px) {

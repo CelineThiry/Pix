@@ -222,7 +222,13 @@ main {
       bottom: auto; }
 
   .trigger, .trigger.active, .dropdown, .mysubmenu {
-    display: none; } }
+    display: none; }
+
+  main .container-cover.layer1 {
+    position: absolute;
+    width: 100vw;
+    min-width: 200vw;
+    background-color: #fff; } }
 @media (min-width: 2500px) {
   .sidebar header, .sidebar nav, .sidebar footer {
     width: 100%;
