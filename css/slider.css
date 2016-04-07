@@ -3,7 +3,7 @@ body {
 }
 
 
-.container-cover {
+.container-cover.layer1 {
   /*margin: 0 auto 0 20%;*/
   position: absolute;
   top: 0;

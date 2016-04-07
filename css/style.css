@@ -87,27 +87,12 @@ header.menu-responsive {
 
 /* RIGHT PART - MAIN PART */
 main {
-  float: right; }
+  float: right;
+  position: relative; }
 
-.layer1.slider-img {
-  z-index: 0;
-  height: 100vh;
-  width: 80vw;
-  overflow: hidden;
-  position: absolute;
-  top: 0;
-  right: 0;
-  background-color: aquamarine; }
-  .layer1.slider-img ul.slides {
-    padding: 0;
-    margin: 0;
-    list-style-type: none;
-    width: 10000px; }
-  .layer1.slider-img li.slide {
-    width: 80vw;
-    float: left; }
-    .layer1.slider-img li.slide img {
-      width: 100%; }
+.layer2 {
+  /*margin: 0 auto 0 20%;*/
+  /*min-height: 400px;*/ }
 
 /* MENU RESPONSIVE */
 .my-header {
