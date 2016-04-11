@@ -78,32 +78,3 @@ width: 100%;
 min-height: 100%;
 }
 
-.slider button {
-position: absolute;
-display: block;
-box-sizing: border-box;
-border: none;
-outline: none;
-top: 0;
-bottom: 0;
-width: 20%;
-background-color: rgba(0, 0, 0, 0.3);
-color: #fff;
-margin: 0;
-padding: 0;
-text-align:center;
-opacity: 0;
-z-index: 2;
-}
-
-.slider button.prev {
-left: 0;
-}
-
-.slider button.next {
-right: 0;
-}
-
-.slider button:hover, .slider button:active {
-opacity: 1.0;
-}

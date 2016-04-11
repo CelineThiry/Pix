@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta name="robots" content="noindex, nofollow">
+	<meta name="robots" content="noindex, nofollow">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+	<!-- I FOUND SOMETHING IMPORTANT : Tag above is what define how the design must reacts to different size of device such as tablet and smartphone  -->
 	<meta charset="UTF-8">
 	<title>Pixinko</title>
 	<meta name="description" content="Pixinko, votre agence crehacktive 360°.">
@@ -115,25 +117,51 @@
 		<div class="container-cover layer1">
 			<div class="slider">
 			  <ul>
-			    <li>
+			    <li id="slide1">
 			      <img src="img/slide1.jpg" />
 			    </li>
-			    <li>
+			    <li id="slide2">
 			      <img src="img/slide2.jpg" />
 			    </li>
-			    <li>
+			    <li id="slide3">
 			      <img src="img/slide3.jpg" />
 			    </li>
 			  </ul>
-			  	<button class="prev">prev</button>
-		  		<button class="next">next</button>
+			  	
 			</div> <!-- END SLIDER -->			
-		</div><!-- END CONTAINER -->
+		</div><!-- END CONTAINER / LAYER1-->
 		<div class="layer2">
 			<div class="wrapper">
-				<div class="fixed-triangle"></div>
+				<div class="second-wrapper">
+					<button class="prev"><i class="fa fa-chevron-right"></i></button>
+		  			<button class="next"><i class="fa fa-chevron-left"></i></button>
+				</div>
+				<div class="second-wrapper bullet">
+					<ul>
+						<li class="active"><a href="#" class="bullet1"></a></li>
+						<li><a href="#" class="bullet2"></a></li>
+						<li><a href="#" class="bullet3"></a></li>
+					</ul>
+				</div>
 			</div>				
+		</div> <!-- END LAYER 2 -->
+		<div class="layer3">
+			<div class="slider-text">
+			  <ul>
+			    <li id="slide1">
+			      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor corrupti voluptate quod facere at impedit hic consequuntur obcaecati possimus dignissimos! Laboriosam omnis eum, nihil quidem cum impedit qui consequuntur debitis.</p>
+			    </li>
+			    <li id="slide2">
+			      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae, quaerat? Distinctio obcaecati doloremque corporis vel placeat qui, fugit cum delectus aut dolore autem illum natus! Quisquam, voluptas sed reiciendis voluptatum.</p>
+			    </li>
+			    <li id="slide3">
+			      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus quasi repellendus sint perferendis nam temporibus, aliquid consequuntur corporis eveniet nisi modi libero reiciendis, fugit, iure ex numquam culpa eaque quia.</p>
+			    </li>
+			  </ul>
+			  	
+			</div> 			
 		</div>
+		<!-- END LAYER 3 -->
 	</main>
 
 </section> <!-- END CONTAINER -->

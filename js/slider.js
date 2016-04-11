@@ -25,13 +25,13 @@ $(this).css({width:(100 / slide_count) + "%"});
 });
 
 // Listen for click of prev button
-$(".slider .prev").click(function() {
+$(".prev").click(function() {
 console.log("prev button clicked");
 slide(slide_index - 1);
 });
 
 // Listen for click of next button
-$(".slider .next").click(function() {
+$(".next").click(function() {
 console.log("next button clicked");
 slide(slide_index + 1);
 });
@@ -60,6 +60,14 @@ slide(slide_index + 1);
     });
 
   }
+
+  $('.bullet li').on('click', function(event){
+    event.preventDefault();
+    $('.bullet li').removeClass('active');
+    $(this).addClass('active');
+    slide(new_slide_index);
+  });
+
 
   // var auto = window.setInterval(slide(), 1000); // 1000 ms = 1 sec
 
