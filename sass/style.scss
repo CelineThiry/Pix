@@ -166,10 +166,10 @@ main{
     	.second-wrapper{
     		position: absolute;
     		bottom: 0;
-    		left: 8vw;
+    		left: 10vw;
     		background-color: transparent;
     		height: 20vw;
-    		width: 20vw;
+    		width: 16vw;
     	}
     	button {
     		position: absolute;
@@ -279,7 +279,7 @@ main{
 /* LAYER 3 */
 
 .layer3 {
-  
+  // display: none;
   position: absolute;
   top: 0;
   bottom: 0;
@@ -288,7 +288,7 @@ main{
   min-width: 650px;
   background-color: rgba(255,255,255,0.5);
   z-index: 28;
-  height: 50vh;
+  height: 60vh;
   // min-height: 450px;
 }
 
@@ -319,16 +319,67 @@ position: relative;
 		bottom: 0;
 	}
 
-	p{	
+	.block-text{	
 		display: block;		    
     	border: none;
-    	width: 50%;
+    	width: 35%;
     	/* min-height: 100%; */
     	background-color: pink;
     	margin: auto;
+    	margin-top: 25vh;
+    	// padding: 15px;
+    	position: relative;
+    	
+    
+
+    	h1{
+    		text-align: left;
+    		text-transform: uppercase;
+    		font-family: $unica;
+    		line-height: 3.5rem;
+    		font-size: 3.5rem;
+    		font-weight: normal;
+
+    	}
+
+    	p{
+			text-align: left;
+    		text-transform: uppercase;
+    		font-family: $open;
+    	}
 	}
 }
 
+
+
+	.exergue{
+		position: absolute;
+		background-color: lightblue;
+    	color: white;
+    	width: 300px;
+    	height: 100px;
+    	padding: 15px;    	
+    	top: -120px;
+    	left: -300px;
+
+    	p{
+    		margin:0;
+    	}
+
+    	&:after {
+    		content: "";
+    		width: 0;
+    		height: 0;
+    		border-top: 40px solid transparent;
+    		border-bottom: 40px solid transparent;
+    		border-right: 40px solid lightblue;
+    		position: absolute;
+    		bottom: -40px;
+    		right: 0;
+		}
+	}	
+
+	
 
 
 
