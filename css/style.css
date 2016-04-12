@@ -27,7 +27,8 @@ ul.my-menu {
   font-size: 1.5rem;
   padding: 0;
   margin: 0;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  text-align: left; }
   ul.my-menu li {
     list-style-type: none;
     margin-bottom: 3px; }
@@ -67,16 +68,61 @@ ul.my-submenu {
   margin-bottom: 0.8rem; }
 
 .social-media {
+  height: 40px;
+  list-style-type: none;
   margin: 0;
-  text-align: left;
-  padding: 0; }
-  .social-media li {
-    list-style-type: none;
+  padding: 0;
+  text-align: center; }
+  .social-media .hide-text {
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    display: block; }
+  .social-media .ease-all {
+    -webkit-transition: box-shadow 400ms ease-in-out, color 400ms ease-in-out;
+    -moz-transition: box-shadow 400ms ease-in-out, color 400ms ease-in-out;
+    -o-transition: box-shadow 400ms ease-in-out, color 400ms ease-in-out;
+    -ms-transition: box-shadow 400ms ease-in-out, color 400ms ease-in-out;
+    transition: box-shadow 400ms ease-in-out, color 400ms ease-in-out; }
+  .social-media li a {
     display: inline-block;
-    width: 3.5vw; }
-  .social-media img {
-    fill: white;
-    width: 80%; }
+    float: left;
+    width: 30px;
+    height: 30px;
+    margin-right: 1.25rem;
+    text-align: center;
+    padding-top: 3px;
+    transform: rotate(45deg);
+    /*background-color: #222;*/
+    -webkit-box-shadow: inset 0 0 0 2px black;
+    -moz-box-shadow: inset 0 0 0 2px black;
+    -o-box-shadow: inset 0 0 0 2px black;
+    -ms-box-shadow: inset 0 0 0 2px black;
+    box-shadow: inset 0 0 0 2px black;
+    color: black; }
+    .social-media li a .fa {
+      transform: rotate(-45deg); }
+  .social-media li .facebook:hover {
+    -webkit-box-shadow: inset 0 0 0 30px #3b5998;
+    -moz-box-shadow: inset 0 0 0 30px #3b5998;
+    -o-box-shadow: inset 0 0 0 30px #3b5998;
+    -ms-box-shadow: inset 0 0 0 30px #3b5998;
+    box-shadow: inset 0 0 0 30px #3b5998;
+    color: white; }
+  .social-media li .twitter:hover {
+    -webkit-box-shadow: inset 0 0 0 30px #55acee;
+    -moz-box-shadow: inset 0 0 0 30px #55acee;
+    -o-box-shadow: inset 0 0 0 30px #55acee;
+    -ms-box-shadow: inset 0 0 0 30px #55acee;
+    box-shadow: inset 0 0 0 30px #55acee;
+    color: white; }
+  .social-media li .linkedin:hover {
+    -webkit-box-shadow: inset 0 0 0 30px #0077B5;
+    -moz-box-shadow: inset 0 0 0 30px #0077B5;
+    -o-box-shadow: inset 0 0 0 30px #0077B5;
+    -ms-box-shadow: inset 0 0 0 30px #0077B5;
+    box-shadow: inset 0 0 0 30px #0077B5;
+    color: white; }
 
 .address {
   padding-bottom: 1rem; }
@@ -402,10 +448,12 @@ main {
     left: -100vw;
     right: 0;
     z-index: 26; }
+    .sidebar header, .sidebar nav, .sidebar footer {
+      padding: 1.25rem 15px 0 15px; }
     .sidebar header {
       display: none; }
     .sidebar nav li {
-      text-align: center; }
+      text-align: left; }
     .sidebar footer {
       position: static;
       bottom: auto; }
@@ -534,7 +582,7 @@ main {
 
   .address p, .copyright p {
     font-size: 1.5rem; } }
-@media (max-height: 680px) {
+@media (max-height: 670px) {
   .trigger {
     display: none; }
 
