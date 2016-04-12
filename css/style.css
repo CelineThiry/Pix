@@ -12,7 +12,7 @@ body {
   float: left; }
   .sidebar header, .sidebar nav, .sidebar footer {
     width: 100%;
-    padding: 1.25rem 1.5rem 1.25rem 1.5rem; }
+    padding: 1.25rem 2.5rem 1.25rem 2.5rem; }
   .sidebar header {
     background-color: transparent; }
   .sidebar nav {
@@ -26,22 +26,25 @@ ul.my-menu {
   font-family: "Unica One", cursive;
   font-size: 1.5rem;
   padding: 0;
-  margin: 0; }
+  margin: 0;
+  text-transform: uppercase; }
   ul.my-menu li {
     list-style-type: none;
     margin-bottom: 3px; }
   ul.my-menu a {
-    text-decoration: none; }
+    text-decoration: none;
+    color: black; }
 
 /* DROPDWON TRIGGER */
 .trigger {
-  background-color: blue;
+  background-color: transparent;
   font-size: 1.25rem;
   -webkit-transform: rotate(0deg);
   -moz-transform: rotate(0deg);
   -ms-transform: rotate(0deg);
   -o-transform: rotate(0deg);
-  transform: rotate(0deg); }
+  transform: rotate(0deg);
+  margin-left: 1.3rem; }
 
 .trigger.active {
   -webkit-transform: rotate(-180deg);
@@ -58,30 +61,35 @@ ul.my-menu {
 ul.my-submenu {
   font-family: "Open Sans", sans-serif;
   font-size: 1rem;
-  padding: 0; }
+  padding: 0;
+  line-height: 1.25;
+  text-transform: none;
+  margin-bottom: 0.8rem; }
 
 .social-media {
   margin: 0;
-  text-align: center;
+  text-align: left;
   padding: 0; }
   .social-media li {
     list-style-type: none;
     display: inline-block;
-    width: 45px;
-    height: 45px; }
+    width: 3.5vw; }
   .social-media img {
     fill: white;
     width: 80%; }
 
-.address p {
-  line-height: 0.9;
-  font-size: 0.9rem;
-  text-align: center; }
+.address {
+  padding-bottom: 1rem; }
+  .address p {
+    line-height: 0.5;
+    font-size: 1rem;
+    text-align: left; }
 
 .copyright p {
-  line-height: 0.9;
-  font-size: 0.9rem;
-  text-align: center; }
+  line-height: 0.8;
+  font-size: 0.8rem;
+  text-align: left;
+  color: grey; }
 
 /* RIGHT PART - MAIN PART */
 main {
@@ -526,5 +534,11 @@ main {
 
   .address p, .copyright p {
     font-size: 1.5rem; } }
+@media (max-height: 680px) {
+  .trigger {
+    display: none; }
+
+  .my-submenu {
+    display: none; } }
 
 /*# sourceMappingURL=style.css.map */
