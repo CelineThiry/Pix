@@ -43,7 +43,9 @@ ul.my-menu{
 	text-transform: uppercase;
 	text-align: left;
 
+	
 	li{
+		position: relative;
 		list-style-type: none;
 		// background-color: red;
 		margin-bottom: 3px;
@@ -54,6 +56,20 @@ ul.my-menu{
 		text-decoration: none;
 		color: black;
 	}
+}
+
+
+.my-menu > li:hover::after {
+
+    content: "";
+    position: absolute;
+    top: 14px;
+	left: -17px;
+	background-color: black;
+	display: inline-block;
+	height: 7px;
+	width: 7px;
+	transform: rotate(45deg);
 }
 
 
@@ -96,6 +112,19 @@ ul.my-submenu{
 	line-height: 1.25;
 	text-transform: none;
 	margin-bottom: 0.8rem;
+}
+
+.my-submenu > li:hover::after {
+
+    content: "";
+    position: absolute;
+    top: 7px;
+	left: -17px;
+	background-color: black;
+	display: inline-block;
+	height: 7px;
+	width: 7px;
+	transform: rotate(45deg);
 }
 
 .social-media{
@@ -295,7 +324,7 @@ main{
     		bottom: 0;
     		left: 0;
     		background-color: transparent;
-    		height: 5vw;
+    		height: 6vw;
     		width: 100%;
 
     		ul{
@@ -344,22 +373,48 @@ main{
 
     	}
 
+    	.second-wrapper.central-block{
+    		background-color: transparent;
+    		position: absolute;
+			top: 0;
+			left: 26vw;
+			// height: 37vw;
+			width: 29vw;
+			padding: 15px;
+			margin-top: 28vh;
+
+			h1{
+				font-family: $unica;
+				text-transform: uppercase;
+				line-height: 1;
+				font-size: 3.5rem;
+				padding: 0;
+				margin: 0;
+				font-weight: normal;
+			}
+
+			p{
+				text-transform: uppercase;
+				font-size: 0.9rem;
+			}
+    	}
+
 }
 
 
 /* LAYER 3 */
 
 .layer3 {
-  display: none;
+  // display: none;
   position: absolute;
   top: 0;
-  bottom: 0;
+  // bottom: 0;
   right: 0;
   width: 80vw;
   min-width: 650px;
   background-color: rgba(255,255,255,0.5);
   z-index: 28;
-  height: 60vh;
+  height: 32vh;
   // min-height: 450px;
 }
 
@@ -393,11 +448,12 @@ position: relative;
 	.block-text{	
 		display: block;		    
     	border: none;
-    	width: 35%;
+    	width: 100%;
+    	height: 100%;
     	/* min-height: 100%; */
-    	background-color: pink;
+    	background-color: rgba(200,255,255,0.5);
     	margin: auto;
-    	margin-top: 25vh;
+    	// margin-top: 25vh;
     	// padding: 15px;
     	position: relative;
     	
@@ -422,16 +478,24 @@ position: relative;
 }
 
 
-
-	.exergue{
+.exergue{
 		position: absolute;
-		background-color: lightblue;
-    	color: white;
+		background-color: transparent;
+    	color: transparent;
     	width: 300px;
     	height: 100px;
     	padding: 15px;    	
-    	top: -120px;
-    	left: -300px;
+    	top: 9vh;
+		left: -100vw;
+		-webkit-transition: all 1s ease 0.3s;
+		   -moz-transition: all 1s ease 0.3s;
+		    -ms-transition: all 1s ease 0.3s;
+		     -o-transition: all 1s ease 0.3s;
+		        transition: all 1s ease 0.3s;
+		// animation-name: text-bubble;
+		// animation-duration: 1s;
+		// animation-delay: 1s;
+		// animation-timing-function: ease;
 
     	p{
     		margin:0;
@@ -441,16 +505,35 @@ position: relative;
     		content: "";
     		width: 0;
     		height: 0;
-    		border-top: 40px solid transparent;
-    		border-bottom: 40px solid transparent;
-    		border-right: 40px solid lightblue;
+    		border-top: 30px solid transparent;
+    		border-bottom: 30px solid transparent;
+    		border-right: 30px solid transparent; /* #009DE0 */
     		position: absolute;
-    		bottom: -40px;
+    		bottom: -30px;
     		right: 0;
 		}
-	}	
+}	
 
-	
+// @keyframes text-bubble{
+// 	0%{
+// 		background-color: transparent;
+// 		left: 100vw;
+// 	}
+// 	100%{
+// 		background-color: #009DE0;
+// 		left: 4vw;
+// 	}
+// }
+
+.exergue.active{
+	left: 4vw;
+	background-color: #009DE0;
+   	color: white;
+}	
+
+.exergue.active:after{
+	border-right: 30px solid #009DE0;
+}	
 
 
 
@@ -490,6 +573,7 @@ position: relative;
 	background-color: transparent;	
 	width: 70px;
 	float: left;
+	cursor: pointer;
 }
 
 .burger{
@@ -807,6 +891,8 @@ position: relative;
     		}
 
     	}
+
+    	
 
 }
 

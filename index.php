@@ -162,6 +162,12 @@
 						<li><a href="#" class="bullet3"></a></li>
 					</ul>
 				</div>
+				<div class="second-wrapper central-block">
+					<div class="text">
+						<h1>L'agence de développement créhacktive</h1>
+						<p>Web - Print - Hébergement - App Mobile - Conseils - Video - Administrateur système</p>
+					</div>
+				</div>
 			</div>				
 		</div> <!-- END LAYER 2 -->
 		<div class="layer3">
@@ -169,8 +175,8 @@
 			  <ul>
 			    <li id="slide1">
 			      <div class="block-text">
-			      <h1>crehacktive<br>developpement<br>agency</h1>
-			      <p>print - web - mobile - video - training - IT</p>
+			      <!-- <h1>crehacktive<br>developpement<br>agency</h1>
+			      <p>print - web - mobile - video - training - IT</p> -->
 				      <div class="exergue">
 				      	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt cum provident</p>
 				      	
@@ -179,8 +185,7 @@
 			    </li>
 			    <li id="slide2">
 			      <div class="block-text">
-			      <h1>crehacktive<br>developpement<br>agency</h1>
-			      <p>print - web - mobile - video - training - IT</p>
+			     
 			      <div class="exergue">
 			      	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus error pariatur </p>
 			      	
@@ -190,8 +195,7 @@
 			    </li>
 			    <li id="slide3">
 			      <div class="block-text">
-			      <h1>crehacktive<br>developpement<br>agency</h1>
-			      <p>print - web - mobile - video - training - IT</p>
+			      
 				      <div class="exergue">
 				      	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
 
