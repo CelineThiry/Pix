@@ -171,42 +171,73 @@
 			</div>				
 		</div> <!-- END LAYER 2 -->
 		<div class="layer3">
-			<div class="slider-text">
+			<div class="slider-text-top">
 			  <ul>
-			    <li id="slide1">
+			    <li id="slide1-text-top">
 			      <div class="block-text">
 			      <!-- <h1>crehacktive<br>developpement<br>agency</h1>
 			      <p>print - web - mobile - video - training - IT</p> -->
-				      <div class="exergue">
-				      	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt cum provident</p>
-				      	
+				    <a href="">
+				    	<div class="exergue top">
+				      		<p>Un projet en tête ?<br>Discutons-en !</p>				      	
 				      </div>
+				    </a>
 			      </div>
 			    </li>
-			    <li id="slide2">
-			      <div class="block-text">
-			     
-			      <div class="exergue">
-			      	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus error pariatur </p>
-			      	
-			      </div>
-
+			    <li id="slide2-text-top">
+			      <div class="block-text">			     
+				      <a href="">
+				      	<div class="exergue top">
+				      		<p>Ici, écrire un texte<br> de 2 lignes</p>				      	
+				      	</div>
+				      </a>
 			      </div>
 			    </li>
-			    <li id="slide3">
+			    <li id="slide3-text-top">
 			      <div class="block-text">
 			      
-				      <div class="exergue">
-				      	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
-
-				      </div>
+				      <a href="">
+				      	<div class="exergue top">
+				      		<p>Envie d'améliorer<br>votre présence en ligne ?</p>				      	
+				      	</div>
+				      </a>
+				      
 			      </div>
 			    </li>
-			  </ul>
-			  	
+			  </ul>			  	
 			</div> 			
 		</div>
 		<!-- END LAYER 3 -->
+		<div class="layer4">
+			<div class="slider-text-bottom">
+			  <ul>
+			    <li id="slide1-text-bottom">
+			      <div class="block-text">
+			      				      
+			      </div>
+			    </li>
+			    <li id="slide2-text-bottom">
+			      <div class="block-text">				      	
+				    <a href="">
+				    	<div class="exergue bottom">
+				      		<p>Ecrire un court texte accrocheur</p>				      	
+				    	</div>
+				    </a>
+			      </div>
+			    </li>
+			    <li id="slide3-text-bottom">
+			      <div class="block-text">
+				      <a href="">
+				      	<div class="exergue bottom">
+				      		<p>Besoin d'une identité de marque ?</p>				      	
+				      	</div>
+				      </a>
+			      </div>
+			    </li>
+			  </ul>			  	
+			</div> 			
+		</div>
+		<!-- END LAYER 4 -->
 	</main>
 
 </section> <!-- END CONTAINER -->
