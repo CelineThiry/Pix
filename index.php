@@ -156,11 +156,11 @@
 		  			<button class="next"><i class="fa fa-chevron-left"></i></button>
 				</div>
 				<div class="second-wrapper bullet">
-					<ul>
+					<!--<ul>
 						<li class="active"><a href="#" class="bullet1"></a></li>
-						<li><a href="#" class="bullet2"></a></li>
-						<li><a href="#" class="bullet3"></a></li>
-					</ul>
+						<li class=""><a href="#" class="bullet2"></a></li>
+						<li class=" "><a href="#" class="bullet3"></a></li>
+					</ul>-->
 				</div>
 				<div class="second-wrapper central-block">
 					<div class="text">
@@ -178,7 +178,7 @@
 			      <!-- <h1>crehacktive<br>developpement<br>agency</h1>
 			      <p>print - web - mobile - video - training - IT</p> -->
 				    <a href="">
-				    	<div class="exergue top">
+				    	<div class="exergue active top">
 				      		<p>Un projet en tête ?<br>Discutons-en !</p>				      	
 				      </div>
 				    </a>
@@ -187,7 +187,7 @@
 			    <li id="slide2-text-top">
 			      <div class="block-text">			     
 				      <a href="">
-				      	<div class="exergue top">
+				      	<div class="exergue active top">
 				      		<p>Ici, écrire un texte<br> de 2 lignes</p>				      	
 				      	</div>
 				      </a>
@@ -197,7 +197,7 @@
 			      <div class="block-text">
 			      
 				      <a href="">
-				      	<div class="exergue top">
+				      	<div class="exergue active top">
 				      		<p>Envie d'améliorer<br>votre présence en ligne ?</p>				      	
 				      	</div>
 				      </a>
@@ -213,13 +213,17 @@
 			  <ul>
 			    <li id="slide1-text-bottom">
 			      <div class="block-text">
-			      				      
+			      		<a href="">
+				      	<div class="exergue active bottom">
+				      		<p>Je suis le premier block du bas</p>				      	
+				      	</div>
+				      </a>			      
 			      </div>
 			    </li>
 			    <li id="slide2-text-bottom">
 			      <div class="block-text">				      	
 				    <a href="">
-				    	<div class="exergue bottom">
+				    	<div class="exergue active bottom">
 				      		<p>Ecrire un court texte accrocheur</p>				      	
 				    	</div>
 				    </a>
@@ -228,7 +232,7 @@
 			    <li id="slide3-text-bottom">
 			      <div class="block-text">
 				      <a href="">
-				      	<div class="exergue bottom">
+				      	<div class="exergue active bottom">
 				      		<p>Besoin d'une identité de marque ?</p>				      	
 				      	</div>
 				      </a>

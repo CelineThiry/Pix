@@ -291,12 +291,11 @@ main {
 .layer3 {
   position: absolute;
   top: 0;
-  right: 0;
-  width: 80vw;
-  min-width: 650px;
-  background-color: rgba(255, 255, 255, 0.5);
+  left: -80vw;
+  width: 27vw;
+  background-color: rgba(255, 255, 255, 0);
   z-index: 28;
-  height: 32vh; }
+  height: 60vh; }
 
 .slider-text-top {
   width: 100%;
@@ -326,7 +325,7 @@ main {
     width: 100%;
     height: 100%;
     /* min-height: 100%; */
-    background-color: rgba(200, 255, 255, 0.5);
+    background-color: rgba(200, 255, 255, 0);
     margin: auto;
     position: relative; }
     .slider-text-top .block-text h1 {
@@ -346,13 +345,8 @@ main {
   background-color: transparent;
   color: transparent;
   padding: 15px;
-  top: 9vh;
-  left: 100vw;
-  -webkit-transition: all 1s ease 0.3s;
-  -moz-transition: all 1s ease 0.3s;
-  -ms-transition: all 1s ease 0.3s;
-  -o-transition: all 1s ease 0.3s;
-  transition: all 1s ease 0.3s;
+  top: 15vh;
+  left: 8vw;
   animation-name: heart-pulse;
   animation-duration: 1s;
   animation-delay: 3s;
@@ -373,7 +367,7 @@ main {
     /* #009DE0 */
     position: absolute;
     bottom: -30px;
-    right: 0; }
+    right: 0px; }
 
 @keyframes heart-pulse {
   0% {
@@ -389,7 +383,7 @@ main {
     -o-transform: scale(0.97);
     transform: scale(0.97); } }
 .exergue.active {
-  left: 4vw;
+  left: 8vw;
   background-color: #009DE0;
   color: white; }
 
@@ -402,7 +396,7 @@ main {
   bottom: -100vh;
   right: 0;
   width: 27vw;
-  background-color: rgba(255, 200, 255, 0.7);
+  background-color: rgba(255, 200, 255, 0);
   z-index: 28;
   height: 68vh; }
 
@@ -434,7 +428,7 @@ main {
     width: 100%;
     height: 100%;
     /* min-height: 100%; */
-    background-color: rgba(200, 255, 255, 0.5);
+    background-color: rgba(200, 255, 255, 0);
     margin: auto;
     position: relative; }
     .slider-text-bottom .block-text h1 {
@@ -450,7 +444,7 @@ main {
       font-family: "Open Sans", sans-serif; }
 
 .exergue.bottom {
-  top: 10vh;
+  top: 35vh;
   left: 0; }
 
 .exergue.bottom.active {
@@ -715,7 +709,24 @@ main {
           -moz-transform: rotate(45deg) scale(1.5);
           -ms-transform: rotate(45deg) scale(1.5);
           -o-transform: rotate(45deg) scale(1.5);
-          transform: rotate(45deg) scale(1.5); } }
+          transform: rotate(45deg) scale(1.5); }
+    .layer2 .second-wrapper.central-block {
+      top: 0;
+      left: 0vw;
+      width: 100vw;
+      padding: 15px;
+      margin-top: 38vh; }
+      .layer2 .second-wrapper.central-block h1 {
+        font-size: 3rem; }
+    .layer2 .layer4 {
+      bottom: -100vh;
+      width: 100vw;
+      height: 36vh; }
+    .layer2 .exergue {
+      width: 100%;
+      left: 0; }
+    .layer2 .exergue.bottom {
+      top: 7vh; } }
 @media (min-width: 2500px) {
   .sidebar header, .sidebar nav, .sidebar footer {
     width: 100%;

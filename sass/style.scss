@@ -408,13 +408,12 @@ main{
   // display: none;
   position: absolute;
   top: 0;
-  // bottom: 0;
-  right: 0;
-  width: 80vw;
-  min-width: 650px;
-  background-color: rgba(255,255,255,0.5);
-  z-index: 28;
-  height: 32vh;
+  left: -80vw;
+	width: 27vw;
+// min-width: 650px;
+	background-color: rgba(255, 255, 255, 0.0);
+	z-index: 28;
+	height: 60vh;
   // min-height: 450px;
 }
 
@@ -451,7 +450,7 @@ position: relative;
     	width: 100%;
     	height: 100%;
     	/* min-height: 100%; */
-    	background-color: rgba(200,255,255,0.5);
+    	background-color: rgba(200,255,255,0.0);
     	margin: auto;
     	// margin-top: 25vh;
     	// padding: 15px;
@@ -485,13 +484,13 @@ position: relative;
     	// width: 300px;
     	// height: 100px;
     	padding: 15px;    	
-    	top: 9vh;
-		left: 100vw;
-		-webkit-transition: all 1s ease 0.3s;
-		   -moz-transition: all 1s ease 0.3s;
-		    -ms-transition: all 1s ease 0.3s;
-		     -o-transition: all 1s ease 0.3s;
-		        transition: all 1s ease 0.3s;
+    	top: 15vh;
+		left: 8vw;
+		// -webkit-transition: all 1s ease 0.3s;
+		//    -moz-transition: all 1s ease 0.3s;
+		//     -ms-transition: all 1s ease 0.3s;
+		//      -o-transition: all 1s ease 0.3s;
+		//         transition: all 1s ease 0.3s;
 		animation-name: heart-pulse;
 		animation-duration: 1s;
 		animation-delay: 3s;
@@ -517,7 +516,12 @@ position: relative;
     		border-right: 30px solid transparent; /* #009DE0 */
     		position: absolute;
     		bottom: -30px;
-    		right: 0;
+    		right: 0px;
+    	// 	-webkit-transition: all 1s ease 0.3s;
+		   // -moz-transition: all 1s ease 0.3s;
+		   //  -ms-transition: all 1s ease 0.3s;
+		   //   -o-transition: all 1s ease 0.3s;
+		   //      transition: all 1s ease 0.3s;
 		}
 }	
 
@@ -549,7 +553,7 @@ position: relative;
 }
 
 .exergue.active{
-	left: 4vw;
+	left: 8vw;
 	background-color: #009DE0;
    	color: white;
 }	
@@ -567,7 +571,7 @@ position: relative;
 	right: 0;
 	width: 27vw;
   // min-width: 650px;
-  background-color: rgba(255,200,255,0.7);
+  background-color: rgba(255,200,255,0.0);
   z-index: 28;
   height: 68vh;
   // min-height: 450px;
@@ -606,7 +610,7 @@ position: relative;
     	width: 100%;
     	height: 100%;
     	/* min-height: 100%; */
-    	background-color: rgba(200,255,255,0.5);
+    	background-color: rgba(200,255,255,0.0);
     	margin: auto;
     	// margin-top: 25vh;
     	// padding: 15px;
@@ -633,7 +637,7 @@ position: relative;
 }
 
 .exergue.bottom{
-	top: 10vh;
+	top: 35vh;
 	left: 0;
 }
 
@@ -909,7 +913,9 @@ position: relative;
 			left: 0;
 			background-color: transparent;
 			height: 40vw;
-			width: 100vw;    	}
+			width: 100vw;    	
+		}
+
     	button {
     		position: absolute;
 			width: 16vw;
@@ -927,7 +933,7 @@ position: relative;
 				        transition: opacity .25s ease;
 			}
 
-		}
+	}
 
 		.prev {
 			top: 0;
@@ -1013,9 +1019,37 @@ position: relative;
 
     	}
 
+	.second-wrapper.central-block {
+	    top: 0;
+	    left: 0vw;
+	    width: 100vw;
+	    padding: 15px;
+	    margin-top: 38vh;
+
+	    h1{
+			font-size: 3rem;
+	    }
+	}
+
+	.layer4 {	    
+	    bottom: -100vh;	    
+	    width: 100vw;	   
+	    height: 36vh;
+	}
+
+	.exergue{
+		width: 100%;
+		left:0;
+	}
+
+	.exergue.bottom {
+	    top: 7vh;
+	    
+	}
+
     	
 
-}
+	}
 
 
 
