@@ -13,9 +13,13 @@ $(document).ready(function(){
 	$('.burger').click(function(){
 		//slide up all the link lists
 		$('.sidebar').toggleClass("active");
-		$(this).toggleClass("active");
+		$(this).toggleClass("active");		
+	});
 
-		
+	$('main').click(function(){
+		//slide up all the link lists
+		$('.sidebar').removeClass("active");
+				
 	});
 
 

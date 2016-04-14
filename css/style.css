@@ -566,7 +566,10 @@ main {
     font-size: 2rem; }
 
   .exergue.top.active p {
-    font-size: 2rem; } }
+    font-size: 2rem; }
+
+  .slider-text-bottom li, .slider-text-top li {
+    padding: 30px !important; } }
 /* END (min-width: 768px) and (max-width: 980px) */
 @media (max-width: 980px) {
   .menu-responsive {
@@ -790,6 +793,35 @@ main {
 
   .address p, .copyright p {
     font-size: 1.5rem; } }
+@media (min-width: 1920px) {
+  .sidebar header, .sidebar nav, .sidebar footer {
+    padding: 2.5rem 3.5rem 2.5rem 3.5rem; }
+
+  ul.my-menu {
+    font-size: 2rem; }
+    ul.my-menu li:hover::after {
+      top: 20px;
+      left: -17px;
+      height: 7px;
+      width: 7px; }
+
+  ul.my-submenu li:hover::after {
+    top: 7px;
+    left: -17px;
+    height: 7px;
+    width: 7px; }
+
+  .layer2 .second-wrapper.central-block h1 {
+    font-size: 5rem; }
+  .layer2 .second-wrapper.central-block p {
+    font-size: 1.25rem; }
+
+  .slider-text-top li, .slider-text-bottom li {
+    padding: 3vw; }
+
+  .exergue p {
+    font-size: 1.25rem; } }
+/* END (min-width: 1920px) */
 @media (max-height: 670px) {
   .trigger {
     display: none; }
