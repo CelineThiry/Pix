@@ -9,7 +9,8 @@ body {
   background-color: white;
   overflow: hidden;
   position: relative;
-  float: left; }
+  float: left;
+  box-shadow: 1px 1px 0.4vw 1px rgba(0, 0, 0, 0.1); }
   .sidebar header, .sidebar nav, .sidebar footer {
     width: 100%;
     padding: 1.25rem 2.5rem 1.25rem 2.5rem; }
@@ -163,7 +164,8 @@ ul.my-submenu {
 /* RIGHT PART - MAIN PART */
 main {
   float: right;
-  position: relative; }
+  position: relative;
+  z-index: -1; }
 
 /* LAYER2 */
 .layer2 {

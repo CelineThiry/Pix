@@ -3,7 +3,7 @@
 <head>
 	<meta name="robots" content="noindex, nofollow">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
-	<!-- I FOUND SOMETHING IMPORTANT : Tag above is what define how the design must reacts to different size of device such as tablet and smartphone  -->
+	<!--I FOUND SOMETHING IMPORTANT : Tag above is what define how the design must reacts to different size of device such as tablet and smartphone  -->
 	<meta charset="UTF-8">
 	<title>Pixinko</title>
 	<meta name="description" content="Pixinko, votre agence crehacktive 360°.">
@@ -77,7 +77,7 @@
 			</div>
 			
 		</footer>
-	</div> <!-- END SIDEBAR -->
+	</div> <!--END SIDEBAR -->
 	
 	<div class="menu-responsive">
 		<div class="burger-icon-container">			
@@ -91,8 +91,8 @@
 			</a>
 		
 		 
-	</div><!-- END RESPONSIVE MENU -->
-	<!-- <header class="menu-responsive">
+	</div><!--END RESPONSIVE MENU -->
+	<!--<header class="menu-responsive">
 		<div class="my-header row align-middle">
 			<div class="home-logo small-9 columns">
 				<a href="index.html"><img src="img/logo_pixinko.svg" alt="Home"></a>
@@ -127,28 +127,28 @@
 							<p>c 2016 Pixinko</p>
 						</div>
 					</footer>
-				</nav> <!-- END NAV-LIST
-		</div><!-- END NAVIGATION -->		
-	<!-- </header> -->
-		<!-- END HEADER -> ONLY VISIBLE ON TABLET AND SMARTPHONE -->
+				</nav> <!--END NAV-LIST
+		</div><!--END NAVIGATION -->		
+	<!--</header> -->
+		<!--END HEADER -> ONLY VISIBLE ON TABLET AND SMARTPHONE -->
 
 	<main>
 		<div class="container-cover layer1">
 			<div class="slider">
 			  <ul>
 			    <li id="slide1">
-			      <img src="img/slide1.jpg" />
+			      <img src="img/slide1.jpg" alt="slide" />
 			    </li>
 			    <li id="slide2">
-			      <img src="img/slide2.jpg" />
+			      <img src="img/slide2.jpg" alt="slide" />
 			    </li>
 			    <li id="slide3">
-			      <img src="img/slide3.jpg" />
+			      <img src="img/slide3.jpg" alt="slide" />
 			    </li>
 			  </ul>
 			  	
-			</div> <!-- END SLIDER -->			
-		</div><!-- END CONTAINER / LAYER1-->
+			</div> <!--END SLIDER -->			
+		</div><!--END CONTAINER / LAYER1-->
 		<div class="layer2">
 			<div class="wrapper">
 				<div class="second-wrapper">
@@ -169,18 +169,18 @@
 					</div>
 				</div>
 			</div>				
-		</div> <!-- END LAYER 2 -->
+		</div> <!--END LAYER 2 -->
 		<div class="layer3">
 			<div class="slider-text-top">
 			  <ul>
 			    <li id="slide1-text-top">
 			      <div class="block-text">
-			      <!-- <h1>crehacktive<br>developpement<br>agency</h1>
+			      <!--<h1>crehacktive<br>developpement<br>agency</h1>
 			      <p>print - web - mobile - video - training - IT</p> -->
 				    <a href="">
 
 				    	<div class="exergue active top">
-				    		<!-- IMPORTANT ! Max +- 21 words in this p ! -->
+				    		<!--IMPORTANT ! Max +- 21 words in this p ! -->
 				      		<p>Un projet en tête ?<br>Discutons-en !</p>				      	
 				      </div>
 				    </a>
@@ -190,7 +190,7 @@
 			      <div class="block-text">			     
 				      <a href="">
 				      	<div class="exergue active top">
-				      	<!-- IMPORTANT ! Max +- 21 words in this p ! -->
+				      	<!--IMPORTANT ! Max +- 21 words in this p ! -->
 				      		<p>Ici, écrire un texte<br> de 2 lignes</p>				      	
 				      	</div>
 				      </a>
@@ -201,7 +201,7 @@
 			      
 				      <a href="">
 				      	<div class="exergue active top">
-				      	<!-- IMPORTANT ! Max +- 21 words in this p ! -->
+				      	<!--IMPORTANT ! Max +- 21 words in this p ! -->
 				      		<p>Envie d'améliorer<br>votre présence en ligne ?</p>				      	
 				      	</div>
 				      </a>
@@ -211,7 +211,7 @@
 			  </ul>			  	
 			</div> 			
 		</div>
-		<!-- END LAYER 3 -->
+		<!--END LAYER 3 -->
 		<div class="layer4">
 			<div class="slider-text-bottom">
 			  <ul>
@@ -219,7 +219,7 @@
 			      <div class="block-text">
 			      		<a href="">
 				      	<div class="exergue active bottom">
-				      		<!-- IMPORTANT ! Max +- 21 words in this p ! -->
+				      		<!--IMPORTANT ! Max +- 21 words in this p ! -->
 				      		<p>Je suis le premier block du bas, je fais office de test pour voir combien de mots on peut placé</p>				      	
 				      	</div>
 				      </a>			      
@@ -229,7 +229,7 @@
 			      <div class="block-text">				      	
 				    <a href="">
 				    	<div class="exergue active bottom">
-				      		<!-- IMPORTANT ! Max +- 21 words in this p ! -->
+				      		<!--IMPORTANT ! Max +- 21 words in this p ! -->
 				      		<p>Ecrire un court texte accrocheur</p>				      	
 				    	</div>
 				    </a>
@@ -239,7 +239,7 @@
 			      <div class="block-text">
 				      <a href="">
 				      	<div class="exergue active bottom">
-				      		<!-- IMPORTANT ! Max +- 21 words in this p ! -->
+				      		<!--IMPORTANT ! Max +- 21 words in this p ! -->
 				      		<p>Besoin d'une identité de marque ?</p>				      	
 				      	</div>
 				      </a>
@@ -248,10 +248,10 @@
 			  </ul>			  	
 			</div> 			
 		</div>
-		<!-- END LAYER 4 -->
+		<!--END LAYER 4 -->
 	</main>
 
-</section> <!-- END CONTAINER -->
+</section> <!--END CONTAINER -->
 
 
 
