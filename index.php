@@ -82,7 +82,7 @@
 	<div class="menu-responsive">
 		<div class="burger-icon-container">			
 			<div class="burger">
-				<div class="icon"></div>	
+				<i class="fa fa-bars fa-2x" aria-hidden="true"></i>
 			</div>				
 		</div>
 		
@@ -178,7 +178,9 @@
 			      <!-- <h1>crehacktive<br>developpement<br>agency</h1>
 			      <p>print - web - mobile - video - training - IT</p> -->
 				    <a href="">
+
 				    	<div class="exergue active top">
+				    		<!-- IMPORTANT ! Max +- 21 words in this p ! -->
 				      		<p>Un projet en tête ?<br>Discutons-en !</p>				      	
 				      </div>
 				    </a>
@@ -188,6 +190,7 @@
 			      <div class="block-text">			     
 				      <a href="">
 				      	<div class="exergue active top">
+				      	<!-- IMPORTANT ! Max +- 21 words in this p ! -->
 				      		<p>Ici, écrire un texte<br> de 2 lignes</p>				      	
 				      	</div>
 				      </a>
@@ -198,6 +201,7 @@
 			      
 				      <a href="">
 				      	<div class="exergue active top">
+				      	<!-- IMPORTANT ! Max +- 21 words in this p ! -->
 				      		<p>Envie d'améliorer<br>votre présence en ligne ?</p>				      	
 				      	</div>
 				      </a>
@@ -215,7 +219,8 @@
 			      <div class="block-text">
 			      		<a href="">
 				      	<div class="exergue active bottom">
-				      		<p>Je suis le premier block du bas</p>				      	
+				      		<!-- IMPORTANT ! Max +- 21 words in this p ! -->
+				      		<p>Je suis le premier block du bas, je fais office de test pour voir combien de mots on peut placé</p>				      	
 				      	</div>
 				      </a>			      
 			      </div>
@@ -224,6 +229,7 @@
 			      <div class="block-text">				      	
 				    <a href="">
 				    	<div class="exergue active bottom">
+				      		<!-- IMPORTANT ! Max +- 21 words in this p ! -->
 				      		<p>Ecrire un court texte accrocheur</p>				      	
 				    	</div>
 				    </a>
@@ -233,6 +239,7 @@
 			      <div class="block-text">
 				      <a href="">
 				      	<div class="exergue active bottom">
+				      		<!-- IMPORTANT ! Max +- 21 words in this p ! -->
 				      		<p>Besoin d'une identité de marque ?</p>				      	
 				      	</div>
 				      </a>
